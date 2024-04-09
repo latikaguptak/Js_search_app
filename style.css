@@ -1,14 +1,45 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 html, body{
     width: 100%;
     height: 100%;
-
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg-black{
-    background-color: #212121;
+   width: 600px;
+   height: 40px;  
+   text-align: center;
+   background-color: hwb(27 55% 7%);
+   margin: 20% 20px 20% 15%;
+   border-radius: 100px;
     color:#fff;
+    
+
+
+}
+.heading{
+    margin-bottom: 20px;
+}
+
+.car{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 44, 130);
+}
+.car1{
+    width: 20px;
+    height: 30px;
+    background: orange;
+}
+.extra{
+    margin: 20px 20px 20px 20px;
+    border-top: whitesmoke;
+    
+    background-size: contain;
+    background-position: center;
 }
