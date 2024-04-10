@@ -22,6 +22,9 @@ html, body{
 
 
 }
+.main{
+    background: #000;
+}
 .heading{
     margin-bottom: 20px;
 }

@@ -10,17 +10,30 @@ body{
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 
 
+}
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.main-nav ul li{
+    border: 2px solid rgb(88, 93, 125);
+    border-radius: 5px;
 }
 .main-nav ul li a{
     text-decoration: none;
-    color: white;
-    padding: 50px 20px;
+    color: blue;
+    padding: 10px 10px;
     display: inline-block;
+
+    
 }
 .main-nav ul li a:hover{
-    background: #444;
+    background: #342376;
+    color: #fff;
+    border-radius: 25px solid #999;
 
 }
 
